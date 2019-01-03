@@ -1,6 +1,6 @@
 def square_array(array)
-  array.each do |num|
-    puts "Multiplying #{num} by itself"
+  array.each { |num|
+    
     num *= num
   end
 end
